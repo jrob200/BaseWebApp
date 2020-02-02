@@ -7,12 +7,12 @@ Today, we’ll get you up and running with a basic web application that you’ll
 ## Part One: Getting the code on your machine
 
 #### 1. Install the tools:
-- [ ] Create a <a href="https://signup.heroku.com/" target="_blank">Heroku account</a> (Make sure to set your primary language as "Node")
-- [ ] Download and install <a href="https://toolbelt.heroku.com/" target="_blank">Heroku's command line tools</a>
-- [ ] Create a <a href="https://github.com/join" target="_blank">GitHub account</a>
-- [ ] Download and install <a href="https://help.github.com/articles/set-up-git/#setting-up-git" target="_blank">git (GitHub's command line tool)</a>
-- [ ] Download and install <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
-- [ ] Download and install a text editor (we recommend <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>)
+- [X] Create a <a href="https://signup.heroku.com/" target="_blank">Heroku account</a> (Make sure to set your primary language as "Node")
+- [X] Download and install <a href="https://toolbelt.heroku.com/" target="_blank">Heroku's command line tools</a>
+- [X] Create a <a href="https://github.com/join" target="_blank">GitHub account</a>
+- [X] Download and install <a href="https://help.github.com/articles/set-up-git/#setting-up-git" target="_blank">git (GitHub's command line tool)</a>
+- [X] Download and install <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
+- [X] Download and install a text editor (we recommend <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>)
 Use Google to search for any error messages you receive when installing the tools. Google is a great resource to get through roadblocks like these.
 
 #### 2. Make a copy of the existing project on GitHub by forking it at https://github.com/HubSpot/BaseWebApp.git
