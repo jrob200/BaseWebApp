@@ -25,4 +25,28 @@
 
 <!-- then our app's own js file -->
 <script>let apiKey = '<%= process.env.API_KEY %>';</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "<%= process.env.FIREBASE_API_KEY %>",
+    authDomain: "hubspotwebappproject.firebaseapp.com",
+    databaseURL: "https://hubspotwebappproject.firebaseio.com",
+    projectId: "hubspotwebappproject",
+    storageBucket: "hubspotwebappproject.appspot.com",
+    messagingSenderId: "55078103276",
+    appId: "1:55078103276:web:c96b08572b7f9ebd3c9dc9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 <script src="js/main.js"></script>

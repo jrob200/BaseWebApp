@@ -16,16 +16,30 @@
 
   <button onClick="showPicture()" class="btn btn-dark">Click me</button>
 
-  <div id="image"></div>
-  
-  <div class="city"></div>
+  <div class="weather">
+    <div id="image"></div>
+    <div class="city"></div>
+    <div class="temp"></div>
+    <div class="weather-search">
+      <input class="search" type="text" placeholder="Enter city name">
+      <button type="button" onClick="searchWeather()">Search!</button>
+      <div class="error-message"></div>
+    </div>
+  </div>
 
-  <div class="temp"></div>
-  
-  <input class="search" type="text" placeholder="Enter city name">
-  <button type="button" onclick="searchWeather()">Search!</button>
+  <div class="login">
+    <button type="button" onClick="handleSignIn()">Login!</button>
+  </div>  
 
-  <div class="error-message"></div>
+  <div class="post">
+    <form onSubmit="handleMessageFormSubmit()" action="#">
+      <p>Title: <input id="post-title" type="text" placeholder="Title"></p>
+      <p>Message: <textarea id="post-body" placeholder="Type your post here"></textarea></p>
+      <button class="button">Submit</button>
+    </form>
+  </div>
+
+  <div id="post-listing"></div>
 
 </body>
 
